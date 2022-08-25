@@ -1,5 +1,5 @@
 import './App.css';
-
+import Header from './components/Header';
 
 function App() {
   return (
@@ -12,9 +12,7 @@ function App() {
 }
 
 const wrapped = (
-	<Provider store={store}>
 		<App />
-	</Provider>
 );
 
 
