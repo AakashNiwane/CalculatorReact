@@ -5,12 +5,14 @@ import { Provider } from "react-redux";
 import Header from "./components/Header";
 import Buttons from "./components/Buttons";
 import reducer from "./reducers";
+import Screen from "./components/Screen";
 
 function App() {
   return (
     <div className="calc-app">
       <div className="calc-wrapper">
         <Header />
+        <Screen />
         <Buttons />
       </div>
     </div>
